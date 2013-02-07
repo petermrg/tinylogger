@@ -68,7 +68,7 @@ if (options.time) {
 
 exports.options = options;
 
-exports.applyOptions = (function(){
+var applyOptions = function(){
     options.levels.forEach(function(level){
         var pre = '';
         var time = '';
@@ -88,5 +88,6 @@ exports.applyOptions = (function(){
             console.log(pre+time+str);
         }
     });
-})();
-
+};
+applyOptions();
+exports.applyOptions = applyOptions;
