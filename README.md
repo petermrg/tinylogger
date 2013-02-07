@@ -1,6 +1,12 @@
 #tinylogger.js
 
-A very simple node module for console logging.
+A very simple node module for console logging with colors.
+
+##Install:
+
+```bash
+npm install tinylogger
+```
 
 ##Usage:
 
