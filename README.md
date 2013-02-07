@@ -2,6 +2,8 @@
 
 A very simple node module for console logging with colors.
 
+![console](http://i.imgur.com/THOrxfe.png)
+
 ##Install:
 
 ```bash
