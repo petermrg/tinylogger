@@ -8,8 +8,8 @@ A very simple node module for console logging.
 var log = require('tinylogger');
 
 log.error('Something wrong'); // displays an error message
-log.info('This is a message'); // info messages
-log.debug('Counter value is: '+i); // debug messages
+log.info('This is a message'); // info message
+log.debug('I am here!'); // debug message
 
 log.options.level = LOG_ALL; // display all messages
 log.options.level = LOG_NONE; // disable logging
