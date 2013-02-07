@@ -1,0 +1,27 @@
+{
+  "name": "tinylogger",
+  "description": "Very small console logger module",
+  "version": "0.1",
+  "author": {
+    "name": "Peter M. <petermrg@gmail.com>"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/petermrg/tinylogger.git"
+  },
+  "engines": {
+    "node": ">=0.1.90"
+  },
+  "main": "tinylogger",
+  "_id": "tinylogger@0.1",
+  "dependencies": {},
+  "devDependencies": {},
+  "optionalDependencies": {
+    "colors": "0.x.x"
+  },
+  "_engineSupported": true,
+  "_npmVersion": "1.1.4",
+  "_nodeVersion": "v0.6.19",
+  "_defaultsLoaded": true,
+  "_from": "tinylogger"
+}
