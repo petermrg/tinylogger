@@ -1,5 +1,5 @@
-var log = require('tinylogger');
-
+var log = require('./tinylogger.js');
+log.options.colors = false;
 log.error('Connection failed!')
 log.debug('Value is: 42');
 log.info('Program init');

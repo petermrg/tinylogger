@@ -27,6 +27,19 @@ log.options.level = LOG_DEBUG+LOG_ERROR; // display debug and error messages
 
 trace, debug, info, warn, alert, error, panic, text, todo, ok, sql
 
+##Requires:
+
+###Colors:
+```bash
+npm install colors
+```
+Or you can disable colors:
+
+```javascript
+log.options.colors = false;
+log.applyOptions();
+```
+
 ##Customize:
 
 You can add new message types or modify the existing ones, just look at `options.levels` array.
